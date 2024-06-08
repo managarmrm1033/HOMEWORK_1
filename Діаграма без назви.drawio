@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-08T12:49:51.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="zRvimxH-lydE4RL53adr" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-08T12:55:47.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="R4KmfCTsDEGR93b9rqz5" version="24.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2304" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-285" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="360" y="410" as="sourcePoint" />
-            <mxPoint x="360" y="520" as="targetPoint" />
+            <mxPoint x="360" y="440" as="targetPoint" />
             <Array as="points">
               <mxPoint x="360" y="390" />
               <mxPoint x="360" y="390" />
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-287" value="Record()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="520" width="310" height="270" as="geometry" />
+          <mxGeometry x="259" y="440" width="310" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-288" value="+ name: Name&lt;br&gt;+ phones: list&lt;div&gt;+ birthday: Birthday: str&lt;br&gt;+ phone: Phone: str&lt;/div&gt;&lt;div&gt;+ old_phone: str&lt;/div&gt;&lt;div&gt;+ new_phone: str&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fd_7F3JHZyCGJRJ0MzMW-287">
           <mxGeometry y="26" width="310" height="124" as="geometry" />
@@ -104,40 +104,39 @@
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-290" value="+ __init__(self, name)&lt;div&gt;+ add_phone(self, phone)&lt;/div&gt;&lt;div&gt;+ remove_phone(self, phone)&lt;/div&gt;&lt;div&gt;+ edit_phone(self, old_phone, new_phone)&lt;/div&gt;&lt;div&gt;+ find_phone(self, phone)&lt;/div&gt;&lt;div&gt;+ add birthday(self, birthday)&lt;/div&gt;&lt;div&gt;+ __str__(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fd_7F3JHZyCGJRJ0MzMW-287">
           <mxGeometry y="158" width="310" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-291" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.819;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fd_7F3JHZyCGJRJ0MzMW-276" target="Fd_7F3JHZyCGJRJ0MzMW-288">
+        <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-291" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.819;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Fd_7F3JHZyCGJRJ0MzMW-287">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="130" y="386" as="sourcePoint" />
-            <mxPoint x="230" y="600" as="targetPoint" />
+            <mxPoint x="81.03999999999996" y="366.00199999999995" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="131" y="390" />
-              <mxPoint x="130" y="390" />
-              <mxPoint x="130" y="580" />
-              <mxPoint x="230" y="580" />
-              <mxPoint x="230" y="583" />
+              <mxPoint x="81" y="391" />
+              <mxPoint x="80" y="391" />
+              <mxPoint x="80" y="430" />
+              <mxPoint x="160" y="430" />
+              <mxPoint x="160" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-293" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-293" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=-0.009;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="414.5" y="790" as="sourcePoint" />
-            <mxPoint x="414.5" y="900" as="targetPoint" />
+            <mxPoint x="256.21000000000004" y="560.002" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="414.5" y="840" />
-              <mxPoint x="414.5" y="840" />
+              <mxPoint x="160" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-294" value="AddressBook(UserDict)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="335" y="900" width="255" height="150" as="geometry" />
+          <mxGeometry x="-40" y="500" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-295" value="+ record: str&lt;div&gt;+ name: str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fd_7F3JHZyCGJRJ0MzMW-294">
-          <mxGeometry y="26" width="255" height="44" as="geometry" />
+          <mxGeometry y="26" width="180" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-296" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Fd_7F3JHZyCGJRJ0MzMW-294">
-          <mxGeometry y="70" width="255" height="8" as="geometry" />
+          <mxGeometry y="70" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-297" value="+ add_record(self, record)&lt;div&gt;+ find(self, name)&lt;/div&gt;&lt;div&gt;+ delete(self, name)&lt;/div&gt;&lt;div&gt;+ get_upcoming_birthdays(self)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Fd_7F3JHZyCGJRJ0MzMW-294">
-          <mxGeometry y="78" width="255" height="72" as="geometry" />
+          <mxGeometry y="78" width="180" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Fd_7F3JHZyCGJRJ0MzMW-298" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;Доступні команди&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;strong&gt;hello&lt;/strong&gt;:&lt;/p&gt;&lt;ul style=&quot;font-size: 18px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Відповідь: &quot;How can I help you?&quot;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;p&gt;&lt;strong&gt;add [name] [phone1] [phone2] ... [phoneN]&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Додає новий контакт з вказаним ім&#39;ям та телефоном/телефонами.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;add John 1234567890 0987654321&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;change [name] [new_phone]&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Змінює перший телефон контакту з вказаним ім&#39;ям на новий телефон.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;change John 1122334455&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;phone [name]&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виводить телефони для контакту з вказаним ім&#39;ям.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;phone John&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;all&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виводить всі контакти.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;all&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;add-birthday [name] [birthday]&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Додає дату народження для контакту з вказаним ім&#39;ям. Формат дати: DD.MM.YYYY.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;add-birthday John 01.01.1990&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;show-birthday [name]&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виводить дату народження для контакту з вказаним ім&#39;ям.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;show-birthday John&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;birthdays&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Виводить контакти з днями народження протягом наступного тижня.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;birthdays&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;close&lt;/strong&gt; або &lt;strong&gt;exit&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Завершує роботу асистента і зберігає дані.&lt;/li&gt;&lt;li&gt;Приклад: &lt;code&gt;close&lt;/code&gt; або &lt;code&gt;exit&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-490" y="80" width="440" height="720" as="geometry" />
